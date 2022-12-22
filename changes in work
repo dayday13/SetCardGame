@@ -1,0 +1,6 @@
+changed dealerBusy to protected
+changed needsPenality to protected 
+
+    protected boolean shouldFinishTest() {
+        return shouldFinish();
+    }
